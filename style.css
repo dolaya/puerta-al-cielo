@@ -102,4 +102,79 @@
       width: 100%;
       height: 100%;
       }
-      
+
+      #nav
+            {
+                position: absolute;
+                top: 3em;
+                font-family: 'Indie Flower', cursive;
+                left: 0;
+                width: 100%;
+            }
+ 
+            #nav  ul  li
+            {
+                display: inline-block;
+                padding-right: 2em;
+            }
+ 
+            #nav ul  li  a
+            {
+                display: block;
+                text-decoration: none;
+                text-transform: uppercase;
+                font-weight: 800;
+                color: #5F9EA0;
+                outline: 0;
+                -moz-transition:all 0.7s ease;
+                transition:all 0.7s ease;
+                -webkit-transition:all 0.7s ease;
+            }
+ 
+            #nav  ul li.active  a ,
+            #nav ul  li:hover  a 
+            {
+                color:#EEE8AA;
+                -moz-transform: rotate(360deg);
+                -ms-transform: rotate(360deg);
+                transform: rotate(360deg);
+                -webkit-transform: rotate(360deg);
+            }
+ 
+            @media screen and (max-width: 600px){
+ 
+                #nav{
+                    background:#250606;
+                    top:0;
+                    padding:0;
+                }
+ 
+                #nav ul li {
+                    float: none;
+                    display: block;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    font-weight: 800;
+                    color: #5F9EA0;
+                    outline: 0;
+                    -moz-transition:none;
+                    transition:none;
+                    -webkit-transition:none;
+                }
+ 
+                #nav ul li a {
+                    width: 100%;
+                    border-bottom: 1px solid #fff;
+                }
+ 
+ 
+                #nav > ul > li.active > a ,
+                #nav > ul > li:hover > a {
+                    color:#EEE8AA;
+                    -moz-transform: none;
+                    -ms-transform: none;
+                    transform: none;
+                    -webkit-transform: none;
+                }
+            }
+          
