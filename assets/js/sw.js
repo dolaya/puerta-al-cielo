@@ -7,10 +7,9 @@ const CACHE_NAME = 'v1_cache_puerta_del_cielo',
     'https://fonts.gstatic.com/s/raleway/v12/1Ptrg8zYS_SKggPNwJYtWqZPAA.woff2',
     'https://use.fontawesome.com/releases/v5.0.7/css/all.css',
     'https://use.fontawesome.com/releases/v5.0.6/webfonts/fa-brands-400.woff2',
-    './style.css',
     './script.js',
-    './img/iglesia_logo.png',
-    './img/favicon.png'
+    '../images/iglesia_ecuador.png',
+    '../images/favicon.png'
   ]
 
 //durante la fase de instalación, generalmente se almacena en caché los activos estáticos del sitio
